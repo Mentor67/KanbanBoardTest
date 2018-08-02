@@ -3,8 +3,6 @@
 include('KB_header.php');
 include('KB_library.php');
 
-
-
 $email = $pwd = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email = test_email($_POST["email"]);
